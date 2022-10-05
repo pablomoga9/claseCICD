@@ -15,4 +15,4 @@ test('Dividing 1 / 1 equals 1', () => {
 
 test('Dividing 1/0 equals infinite',()=>{
   expect(div(1,0)).toBe(Infinity);
-})
+});
